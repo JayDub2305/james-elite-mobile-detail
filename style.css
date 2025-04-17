@@ -15,21 +15,23 @@ header {
 
 /* Target the main title for 'James’ Elite Mobile Detail' */
 header h1 {
-  background-color: red; /* Red background */
-  color: white; /* White text color for contrast */
+  background-color: red;
+  color: white;
   padding: 10px;
   display: inline-block;
   border-radius: 8px;
+  font-size: 48px;
+  margin-bottom: 10px; /* adds space below the title */
 }
 
-/* Add a similar effect for a subtitle or tagline, if you have it (e.g., 'Your car, our care') */
 header p {
-  background-color: red; /* Red background */
+  background-color: red;
   color: white;
   padding: 5px;
   display: inline-block;
   border-radius: 8px;
   font-size: 20px;
+  margin-top: 5px;
 }
 
 /* Footer styles */
