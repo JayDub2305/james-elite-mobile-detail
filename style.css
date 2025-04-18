@@ -1,46 +1,27 @@
-/* General styling for the body */
+/* Set default background to black and text to white */
 body {
-  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
-/* Header styles */
-header {
-  background-color: #333; /* You can keep this or change if needed */
-  color: white;
-  padding: 1em 0;
+/* Keep header and footer with their own background and text color */
+header, footer {
+  background-color: #ffffff; /* Change this to any color you want */
+  color: #000000;            /* Text color for header/footer */
+  padding: 20px;
 }
 
-/* Target the main title for 'James’ Elite Mobile Detail' */
-header h1 {
-  background-color: red;
-  color: white;
-  padding: 10px;
-  display: inline-block;
-  border-radius: 8px;
-  font-size: 48px;
-  margin-bottom: 10px; /* adds space below the title */
+/* Optional: if you want to keep links in the body visible */
+a {
+  color: #1e90ff; /* Light blue for contrast on black */
 }
 
-header p {
-  background-color: red;
-  color: white;
-  padding: 5px;
-  display: inline-block;
-  border-radius: 8px;
-  font-size: 20px;
-  margin-top: 5px;
+a:hover {
+  color: #ffcc00; /* Gold-ish hover effect */
 }
 
-/* Footer styles */
-footer {
-  background-color: #333;
-  color: white;
-  padding: 1em 0;
-  margin-top: 20px;
-}
 
 /* Package styles */
 .packages {
