@@ -1,25 +1,37 @@
-/* Set default background to black and text to white */
+/* Set the entire page background to black */
 body {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: black;
+  color: white; /* Optional: sets default text color to white */
   margin: 0;
   padding: 0;
 }
 
-/* Keep header and footer with their own background and text color */
-header, footer {
-  background-color: #ffffff; /* Change this to any color you want */
-  color: #000000;            /* Text color for header/footer */
+/* Header styling */
+header {
+  background-color: black; /* Background still black unless you want a different color */
+  color: #7DF9FF; /* Electric blue text */
   padding: 20px;
+  text-align: center;
 }
 
-/* Optional: if you want to keep links in the body visible */
-a {
-  color: #1e90ff; /* Light blue for contrast on black */
+/* Footer styling */
+footer {
+  background-color: black;
+  color: #7DF9FF;
+  padding: 20px;
+  text-align: center;
 }
 
-a:hover {
-  color: #ffcc00; /* Gold-ish hover effect */
+/* Optional: override link color inside header/footer */
+header a, footer a {
+  color: #7DF9FF;
+  text-decoration: none;
+}
+
+/* Optional: make sure main content doesn’t override the body background */
+main {
+  background-color: black;
+  color: white;
 }
 
 
